@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	Hello World! $${personName}
+	Hello World! ${personName}
 	<p>This page is under /WEB-INF/view/sample/</p>
 </body>
 </html>
