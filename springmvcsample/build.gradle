@@ -1,0 +1,17 @@
+apply plugin: 'war'
+apply plugin: 'jetty'
+apply plugin: 'eclipse-wtp'
+
+ext.springVersion = '3.2.3.RELEASE'
+ext.servletVersion = '3.0.1'
+
+repositories{
+	mavenCentral()
+}
+
+dependencies{
+	providedCompile "javax.servlet:javax.servlet-api:$servletVersion"
+	compile "org.springframework:spring-webmvc:$springVersion"
+	compile 'org.springframework:spring-core:$springVersion'
+}
+ 
