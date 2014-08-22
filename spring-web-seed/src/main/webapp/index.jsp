@@ -10,5 +10,6 @@
     <p><a href="/seed/jackson/application/1">Example: Jackson lib return json</a></p>
     <p><a href="/seed/persist/applications">Example Spring Data Access with JPA</a></p>
     <p><a href="/seed/persist/home">Static resources</a></p>
+    <br />
 </body>
 </html>
